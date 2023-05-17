@@ -1,0 +1,114 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(rgb(244, 239, 239), rgba(151, 138, 138, 0)),
+        url(https://www.slideteam.net/wp/wp-content/uploads/2021/08/Plantillas-cientificas-de-PowerPoint.png);
+    width: auto;
+    height: auto;
+    background-size: cover;
+}
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(2, 79, 39);
+    background-repeat: unset;
+    object-position: 0;
+    align-items: center;
+    -webkit-text-stroke: 1.0px rgb(5, 5, 5);
+    font-size: 38px;
+    text-align: center;
+}
+
+h2 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(4, 72, 37, 0.928);
+    background-repeat: unset;
+    background-size: cover;
+    object-position: 0;
+    align-items: center;
+    -webkit-text-stroke: 1.0px rgb(15, 13, 15);
+    font-size: 35px;
+    display: block;
+    text-align: center;
+}
+
+h3,
+p,
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(4, 72, 37, 0.928);
+    background-repeat: unset;
+    background-size: cover;
+    object-position: 0;
+    align-items: center;
+    -webkit-text-stroke: 1.0px rgb(15, 13, 15);
+    font-size: 35px;
+    display: block;
+    text-align: center;
+}
+/* estilos para los inputs de texto */
+input[type="text"]{ 
+   
+    width: 50%;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #160f0f;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: center;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    height: 300px;
+    ;
+    width: auto;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    padding: 10px;
+    border: 2px solid #1c981c;
+}
+
+/* estilos para los botones */
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+
+    background-color: #3e8e41;
+
+
+
+}
+
+/* estilos para el input de número */
+input[type="number"] {
+    width: 75px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
